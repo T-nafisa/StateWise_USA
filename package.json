@@ -1,13 +1,7 @@
 {
-  "name": "StateWise_USA",
+  "name": "streetwise-usa",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "build": "echo OK"
-  },
-  "dependencies": {
-    "next": "15.4.6",
-    "react": "19.1.0",
-    "react-dom": "19.1.0"
-  }
+  "scripts": { "build": "echo OK" },
+  "dependencies": { "next": "15.4.6", "react": "19.1.0", "react-dom": "19.1.0" }
 }
