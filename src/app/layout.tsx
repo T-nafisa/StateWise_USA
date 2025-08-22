@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Streetwise USA — Weather + Outdoor Fun',
     description: 'Real-time weather and public outdoor activities across the U.S.',
 }
-
+ 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en" suppressHydrationWarning>
