@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model DailySnapshot {
+  id         Int      @id @default(autoincrement())
+  createdAt  DateTime @default(now())
+  state      String
+  weather    Json
+  activities Json
+  userNote   String?
+
+  @@index([createdAt])
+  @@index([state])
+}
